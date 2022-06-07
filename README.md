@@ -1,4 +1,4 @@
-# Powered By @LegendBot_XD
+# Powered By [@Mr_Agora](https://t.me/mr_agora)
 
 ## ⚠️ Note : Dont Try To Missuse This Repo
 
