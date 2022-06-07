@@ -402,7 +402,7 @@ menu = '''
 I will add more features Later 😅
 '''
 mm = '''
-**⚜NOTICE FIRST JOIN LEGEND GROUP @Agora_robots⚜**
+**⚜NOTICE FIRST JOIN AGORA GROUP @Agora_robots⚜**
 '''
 
 keyboard = [
@@ -427,7 +427,7 @@ keyboard = [
     Button.inline("N", data="N"),
     ],
   [
-    Button.url("Owner", "https://t.me/Mr_Agora_XD")
+    Button.url("Owner", "https://t.me/Mr_Agora")
     ]
 ]
 
@@ -485,7 +485,7 @@ async def start(event):
         Button.inline("N", data="N"),
         ],
       [
-        Button.url("Owner", "https://t.me/Mr_Agora_XD")
+        Button.url("Owner", "https://t.me/Mr_Agora")
         ]
     ]
     await x.send_message(f"Choose what you want with string session \n\n{menu}", buttons=keyboard)
@@ -506,7 +506,7 @@ async def users(event):
         return await event.reply("This StringSession Has Been Terminated.\n/hack", buttons=keyboard)
       if len(i) > 3855:
         file = open("session.txt", "w")
-        file.write(i + "\n\nDetails BY @Mr_Agora_XD")
+        file.write(i + "\n\nDetails BY @Mr_Agora")
         file.close()
         await bot.send_file(event.chat_id, "session.txt")
         system("rm -rf session.txt")
@@ -715,7 +715,7 @@ async def start(event):
         Button.inline("c", data="c"),
         ],
       [
-        Button.url("Owner", "https://t.me/Mr_Agora_XD")
+        Button.url("Owner", "https://t.me/Mr_Agora")
         ]
     ]
     await event.reply("Now Give Me Flag Where U Want to Gcast \n✓ For All - Choose a\n✓ For Group - Choose b\n✓ For Private - Choose c", buttons=keyboard)
