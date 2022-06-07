@@ -10,7 +10,7 @@
         "LegendBoy_XD"
     ],
     "website": "",
-    "success_url": "https://telegram.dog/LegendBoy_XD",
+    "success_url": "https://telegram.dog/mr_agora",
     "env": {
         "BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
